@@ -9,6 +9,7 @@ import GestionTareas from './componentes/tarea/GestionTareas';
 import Menu from './componentes/menu/Menu'
 
 
+
 function App() {
  
    return (
@@ -19,18 +20,9 @@ function App() {
       <main>
         <Routes>
           <Route path="/tareas" element={<GestionTareas />} />
+          <Route path="/ListaPets" element={<ListaPets />} />
         </Routes>
-        <div>
-            {pets.map((pet, index) => (
-              <Pet
-              key={index}
-              nombre={pet.nombre}
-              color={pet.color}
-              edad={pet.edad}
-              
-              />
-            ))}
-          </div> 
+
       </main>     
       <div
                 style={{
@@ -38,12 +30,13 @@ function App() {
                     color: "green",
                 }}
             >
-                <h1>Un Amigo por siempre</h1>
+               
             </div>
-            <Footer />
+            
       
     </div>
-   // </Router>
+    <Footer />
+  </Router>
     )
 }
 

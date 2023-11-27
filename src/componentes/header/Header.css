@@ -4,5 +4,22 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-family: cursive;
+    font-family: cursive; 
+    background: #c8e255;
+    height: auto;
+    width: 95vw;
+    padding-top: 40px;
+    color: #000000;
   }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: #fcfcfc;
+    font-family: sans-serif;
+  }
+  
+

@@ -8,11 +8,9 @@
     font-family: sans-serif;
   }
   
-  .heart {
-    color: red;
-  }
+
   footer {
-    /* position: absolute; */
+    position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
@@ -38,13 +36,8 @@
     text-transform: capitalize;
     line-height: 3rem;
   }
-  .footer-content p {
-    max-width: 500px;
-    margin: 10px auto;
-    line-height: 28px;
-    font-size: 14px;
-    color: #cacdd2;
-  }
+
+
   .socials {
     list-style: none;
     display: flex;

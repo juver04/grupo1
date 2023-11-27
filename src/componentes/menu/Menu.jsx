@@ -7,6 +7,7 @@ const Menu = () => {
             <ul>
                <li><Link to="/">Inicio</Link></li>
                <li><Link to="/tareas">Gestion de Tareas</Link></li> 
+               <li><Link to="/ListaPets">Nuestras Mascotas</Link></li> 
             </ul>
         </nav>
     )

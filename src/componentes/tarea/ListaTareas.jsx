@@ -6,7 +6,7 @@ const ListaTareas = ({ tareas, completarTarea, eliminarTarea}) => {
         <h2>Lista de Tareas</h2>
         {tareas.map((tarea) =>(
         <Tarea 
-        key={Tarea.id}
+        key={tarea.id}
         tarea={tarea}
         completarTarea={completarTarea}
         eliminarTarea={eliminarTarea}
